@@ -91,7 +91,7 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/react-app-tests/" // name of your app
+  base: "/react-app-tests/" // name of your Github Repository
 });`})})]})]}),P.jsxs("section",{className:"to-wrap",children:[P.jsx("h1",{children:"3. Probably change the way of linking in index.html with deleating useless link"}),P.jsxs("article",{children:[P.jsx("h2",{children:"3.1 in script src add `.` 3.2 delete useless link "}),P.jsx("pre",{className:"to-wrap-code",children:P.jsx("code",{children:`<script type="module" src="./src/main.jsx"><\/script> // add '.'
 <link rel="icon" type="image/svg+xml" href="/vite.svg" /> // DELETE`})})]})]}),P.jsxs("section",{className:"to-wrap",children:[P.jsx("h1",{children:"4. Deploy to github"}),P.jsx("article",{children:P.jsx("pre",{className:"to-wrap-code",children:P.jsx("h2",{children:`When Deployed , move to
              1) Settings 
