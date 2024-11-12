@@ -74,7 +74,7 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/react-app-tests/" // name of your app
+  base: "/react-app-tests/" // name of your Github Repository
 });`}
               </code>
             </pre>
